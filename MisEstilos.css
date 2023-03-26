@@ -1,12 +1,15 @@
 *{
     margin: 0%;
+    padding: auto;
     font-family:'Arial';
 }
 
 nav{
     background-color: #174C4F;
     height: 100px;
-    width: 100%;
+    width:100vmax;
+    margin: 0%;
+    padding: 0%;
 }
 
 .img-logo{
@@ -25,8 +28,18 @@ nav{
     color:aquamarine;
 }
 
+.menu{
+    display: flex;
+    flex-wrap:nowrap;
+    justify-content:flex-end;
+    align-items:end;
+}
+
+
+
 body{
     background-color: #F2F1EF;
+    margin: 0%;
 }
 
 .perfil{
@@ -36,6 +49,10 @@ body{
 
 .portada{
     color:black;
+}
+
+.imgportada{
+    align-items: end;
 }
 
 .arenales1{
@@ -53,8 +70,13 @@ body{
 .nota2{
     margin-left: 35px;
 }
+
 footer{
     background-color: #174C4F;
+    height: 355px;
+    width: 100vmax;
+    margin: 0%;
+    padding: 0%;
 }
 
 .contacto{
